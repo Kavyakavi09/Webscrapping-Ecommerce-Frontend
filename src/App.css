@@ -1,0 +1,74 @@
+.navbar-brand {
+  font-weight: bold;
+  color: #ffc107 !important;
+  font-family: cursive;
+  font-size: 1.8rem !important;
+}
+
+.navbar-brand::first-letter {
+  color: rgb(232, 14, 14);
+}
+
+.input-group {
+  width: 800px !important;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: cursive;
+}
+.input-group .searchBox {
+  font-size: 1.3rem;
+}
+
+input[type='search']:focus {
+  border: 2px solid rgb(233, 29, 29);
+  background-color: rgb(210, 232, 246);
+}
+
+.image {
+  width: 100%;
+  height: 400px !important;
+}
+
+.card {
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: -1px 3px 14px 3px rgba(0, 0, 0, 0.43);
+}
+
+.logo {
+  margin-right: 300px;
+  width: 80px;
+  height: 80px;
+}
+
+.pagination {
+  width: 100% !important;
+}
+@media (min-width: 250px) and (max-width: 370px) {
+  .input-group .searchBox {
+    font-size: 0.9rem;
+  }
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media (min-width: 370px) and (max-width: 450px) {
+  .input-group .searchBox {
+    font-size: 1.15rem;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 800px) {
+  .input-group {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1030px) {
+  .input-group {
+    width: 700px !important;
+  }
+}
