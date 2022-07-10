@@ -1,0 +1,11 @@
+Github-webscrap-front-end: https://github.com/Kavyakavi09/Webscrapping-Ecommerce-Frontend
+
+Github-webscrap-back-end: https://github.com/Kavyakavi09/Webscraping-Ecommerce-Backend
+
+Netlify-webscrap-app: https://webscraping-e-commerce-application.netlify.app/
+
+Heroku-webscrap-app: https://web-scrapping-ecommerce-app.herokuapp.com/api/product
+
+last-coomit-hash-frontend: a1c72a15299b48e32dc1228ddc1ab38129171345
+
+last-commit-has-backend : e31aec39f6457892d48610542fa9fc6e64f8a677
