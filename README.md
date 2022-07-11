@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# MERN webscrap-Ecommerce application
+
+###[Live site](https://webscraping-e-commerce-application.netlify.app/)
+
+<a href="https://ibb.co/S5StZmf"><img src="https://i.ibb.co/2WJvpMZ/wbscrap.png" alt="wbscrap" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>picture upload sites free</a><br />
+
+Server run command : npm run server
+client run command : npm run start
+
 ## Available Scripts
 
 In the project directory, you can run:
