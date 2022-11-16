@@ -17,7 +17,7 @@ function App() {
   async function searchData() {
     try {
       let productData = await axios.get(
-        `https://web-scrapping-ecommerce-app.herokuapp.com/api/product/mobiles?search=${search}&page=1&size=${size}`
+        `https://web-scrapping.onrender.com/api/product/mobiles?search=${search}&page=1&size=${size}`
       );
 
       setData(productData.data.data);
@@ -37,7 +37,7 @@ function App() {
   const fetchComments = async (currentPage) => {
     try {
       let productData = await axios.get(
-        `https://web-scrapping-ecommerce-app.herokuapp.com/api/product/mobiles?search=${search}&page=${currentPage}&size=${size}`
+        `https://web-scrapping.onrender.com/api/product/mobiles?search=${search}&page=${currentPage}&size=${size}`
       );
 
       console.log(productData.data.data);
